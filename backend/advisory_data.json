@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Tomato___Early_blight",
+    "crop": "Tomato",
+    "disease": "Early blight",
+    "severity": "medium",
+    "symptoms": "Dark concentric spots on older leaves, yellowing, defoliation.",
+    "organic_treatment": "Neem oil spray, remove affected leaves, improve air circulation, Trichoderma soil application.",
+    "chemical_treatment": "Mancozeb 75% WP @ 2.5g/L or Chlorothalonil, repeat at 10-day interval. Follow label safety.",
+    "prevention": "Crop rotation, drip irrigation, mulching, balanced fertilization."
+  },
+  {
+    "label": "Tomato___Late_blight",
+    "crop": "Tomato",
+    "disease": "Late blight",
+    "severity": "high",
+    "symptoms": "Water-soaked lesions on leaves and fruits, white mildew under humid conditions.",
+    "organic_treatment": "Destroy infected plants, copper oxychloride (allowed in organic in limited dose), garlic extract.",
+    "chemical_treatment": "Metalaxyl + Mancozeb combo @ 2.5g/L immediately. Urgent action needed.",
+    "prevention": "Avoid overhead irrigation, resistant varieties, forecast-based spraying."
+  },
+  {
+    "label": "Potato___Healthy",
+    "crop": "Potato",
+    "disease": "Healthy",
+    "severity": "none",
+    "symptoms": "No visible disease symptoms.",
+    "organic_treatment": "No treatment needed. Continue good practices.",
+    "chemical_treatment": "No treatment needed.",
+    "prevention": "Regular scouting, balanced nutrition, clean seed tubers."
+  },
+  {
+    "label": "Maize___Common_rust",
+    "crop": "Maize",
+    "disease": "Common rust",
+    "severity": "medium",
+    "symptoms": "Reddish-brown pustules on leaves, reduces photosynthesis.",
+    "organic_treatment": "Sulphur dust, resistant hybrids next season.",
+    "chemical_treatment": "Propiconazole 25% EC @ 1ml/L if severity > 10%.",
+    "prevention": "Early sowing, weed control, avoid dense planting."
+  },
+  {
+    "label": "Rice___Bacterial_leaf_blight",
+    "crop": "Rice",
+    "disease": "Bacterial leaf blight",
+    "severity": "high",
+    "symptoms": "Yellowing and drying of leaves from tip, wilting in severe cases.",
+    "organic_treatment": "Pseudomonas fluorescens seed treatment, drain field briefly.",
+    "chemical_treatment": "Streptocycline + Copper oxychloride spray. Consult agri officer.",
+    "prevention": "Resistant varieties, balanced nitrogen, field sanitation."
+  },
+  {
+    "label": "Cotton___Healthy",
+    "crop": "Cotton",
+    "disease": "Healthy",
+    "severity": "none",
+    "symptoms": "No visible disease symptoms.",
+    "organic_treatment": "No treatment needed.",
+    "chemical_treatment": "No treatment needed.",
+    "prevention": "Pheromone traps for bollworm, regular scouting."
+  }
+]
