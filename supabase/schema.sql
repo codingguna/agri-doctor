@@ -1,4 +1,4 @@
--- Supabase / Postgres schema for AgriDoctor
+-- Supabase / Postgres schema for AgriDoctor (full version)
 create table if not exists profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   full_name text,
@@ -18,6 +18,14 @@ create table if not exists predictions (
   created_at timestamptz default now()
 );
 create index if not exists idx_predictions_user on predictions(user_id, created_at desc);
+create index if not exists idx_predictions_label on predictions(top_label);
 
--- Storage bucket (create via dashboard or SQL):
--- insert into storage.buckets (id, name, public) values ('leaf-images','leaf-images', true);
+-- Local SQLite mirror uses same columns (see backend/main.py get_db).
+-- Storage bucket (run once):
+-- insert into storage.buckets (id, name, public) values ('leaf-images','leaf-images', true)
+-- on conflict do nothing;
+--
+-- RLS (enable after auth wired):
+-- alter table predictions enable row level security;
+-- create policy "users read own" on predictions for select using (auth.uid() = user_id);
+-- create policy "users insert own" on predictions for insert with check (auth.uid() = user_id);

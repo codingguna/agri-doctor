@@ -1,5 +1,6 @@
 .venv/
 __pycache__/
+.pytest_cache/
 node_modules/
 .next/
 model/
@@ -7,3 +8,5 @@ model/
 *.onnx
 .env
 .env.local
+history.db
+*.db

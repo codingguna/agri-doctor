@@ -1,15 +1,17 @@
+"use client";
 import UploadForm from "../components/UploadForm";
+import { useLang } from "../lib/LanguageContext";
 
 export default function Home() {
+  const { t } = useLang();
   return (
-    <main className="p-6">
-      <p className="mx-auto mb-4 max-w-2xl text-center text-xs text-gray-500">
-        SIH26131 • Govt of Maharashtra • Early detection and management of crop diseases and pest infestations
-      </p>
+    <main className="mx-auto max-w-5xl space-y-6 p-6">
       <UploadForm />
-      <p className="mx-auto mt-4 max-w-2xl text-center text-xs text-gray-500">
-        Backend: <code>/health</code> <code>/predict</code> <code>/diseases</code> — runs in mock mode until you train a model in <code>ml/</code>.
-      </p>
+      <div className="grid gap-4 md:grid-cols-3 text-sm">
+        <div className="rounded-2xl bg-white p-4 shadow"><b>{t("step1t")}</b><p className="text-gray-600">{t("step1d")}</p></div>
+        <div className="rounded-2xl bg-white p-4 shadow"><b>{t("step2t")}</b><p className="text-gray-600">{t("step2d")}</p></div>
+        <div className="rounded-2xl bg-white p-4 shadow"><b>{t("step3t")}</b><p className="text-gray-600">{t("step3d")}</p></div>
+      </div>
     </main>
   );
 }

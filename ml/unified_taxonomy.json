@@ -1,0 +1,8 @@
+{
+  "Cotton___Bollworm": {"plant": "Cotton", "condition": "Bollworm", "category": "pest"},
+  "Rice___Stem_borer": {"plant": "Rice", "condition": "Stem borer", "category": "pest"},
+  "Maize___Fall_armyworm": {"plant": "Maize", "condition": "Fall armyworm", "category": "pest"},
+  "Tomato___Aphids": {"plant": "Tomato", "condition": "Aphids", "category": "pest"},
+  "Wheat___Aphids": {"plant": "Wheat", "condition": "Aphids", "category": "pest"},
+  "Rice___Leaf_folder": {"plant": "Rice", "condition": "Leaf folder", "category": "pest"}
+}

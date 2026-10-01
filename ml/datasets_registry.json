@@ -1,0 +1,24 @@
+{
+  "unified_root": "ml/data/unified",
+  "label_format": "<Plant>___<Condition> for diseases, Insect/<Name> for pure pest photos",
+  "last_checked": "2026-09-24",
+  "check_method": "Kaggle API view (200=exists, 403=blocked/private) + GitHub HEAD",
+  "sources": [
+    {"id": "plantvillage", "type": "classification", "classes": 38, "images": 54000, "license": "CC-BY", "url": "https://github.com/spMohanty/PlantVillage-Dataset", "kaggle": "mohitsingh1804/plantvillage", "kaggle_bytes": 850785369, "status": "verified-live"},
+    {"id": "plantdoc", "type": "classification-field", "classes": 27, "images": 2500, "license": "MIT", "url": "https://github.com/pratikkayal/PlantDoc-Dataset", "status": "verified-live"},
+    {"id": "plantpathology2020", "type": "classification", "classes": 4, "images": 3600, "url": "https://www.kaggle.com/c/plant-pathology-2020-fgvc7", "status": "verified-live"},
+    {"id": "rice_disease", "type": "classification", "classes": 4, "kaggle": "minhhuy2810/rice-diseases-image-dataset", "kaggle_bytes": 12955797432, "status": "verified-live"},
+    {"id": "cotton_disease", "type": "classification", "classes": 4, "kaggle": "janmejaybhoi/cotton-disease-dataset", "kaggle_bytes": 160235538, "status": "verified-live"},
+    {"id": "wheat_leaf", "type": "classification", "classes": 3, "images": 407, "kaggle": "olyadgetch/wheat-leaf-dataset", "note": "OLD slug olyadget/wheat-leaf-dataset was wrong (403) — fixed to olyadgetch/", "status": "verified-live-fixed"},
+    {"id": "wheat_leaf_alt", "type": "classification", "classes": 5, "images": 5597, "kaggle": "jayaprakashpondy/wheat-leaf-disease", "status": "verified-live-new"},
+    {"id": "maize_disease", "type": "classification", "kaggle": "smaranjitghose/corn-or-maize-leaf-disease-dataset", "kaggle_bytes": 171178074, "status": "verified-live"},
+    {"id": "dangerous_insects", "type": "pest-classification", "classes": 15, "kaggle": "tarundalal/dangerous-insects-dataset", "kaggle_bytes": 474013398, "license": "CC0", "creator": "Tarun R Jain", "status": "verified-live-new", "note": "15 farm insects, 474MB. Replaces dead farm-insects entry. Needs Kaggle auth to download."},
+    {"id": "ip102_kaggle", "type": "pest-classification", "classes": 102, "images": 75222, "kaggle": "rtlmhjbn/ip02-dataset", "kaggle_bytes": 3193075663, "paper": "CVPR2019", "status": "verified-live"},
+    {"id": "ip102_github", "type": "pest-classification", "classes": 102, "url": "https://github.com/xpwu95/IP102", "status": "verified-live"},
+    {"id": "pest24_kaggle", "type": "pest-detection", "classes": 24, "images": 25378, "kaggle": "vuanhkhoi/pest24", "alt_kaggle": "boatshuai/pest24", "official": "http://aisys.iim.ac.cn/zhibao.html", "note": "OLD github JiajunLongZeSheng/Pest24 returns 404 — use Kaggle mirror + official site", "status": "verified-live-fixed"},
+    {"id": "farm_insects_old", "type": "pest-classification", "kaggle": "computervision/farm-insects", "status": "dead-403-removed", "replaced_by": "dangerous_insects"}
+  ],
+  "field_mix": {"lab": 0.7, "field": 0.3},
+  "unknown_threshold": 0.55,
+  "download_note": "Kaggle sets need ~/.kaggle/kaggle.json (Account > Create New Token). Then: kaggle datasets download -d <slug> -p data/raw --unzip"
+}

@@ -5,8 +5,8 @@
     "disease": "Early blight",
     "severity": "medium",
     "symptoms": "Dark concentric spots on older leaves, yellowing, defoliation.",
-    "organic_treatment": "Neem oil spray, remove affected leaves, improve air circulation, Trichoderma soil application.",
-    "chemical_treatment": "Mancozeb 75% WP @ 2.5g/L or Chlorothalonil, repeat at 10-day interval. Follow label safety.",
+    "organic_treatment": "Neem oil 5ml/L, remove affected leaves, Trichoderma soil application.",
+    "chemical_treatment": "Mancozeb 75% WP @ 2.5g/L at 10-day interval. Follow label safety.",
     "prevention": "Crop rotation, drip irrigation, mulching, balanced fertilization."
   },
   {
@@ -15,42 +15,122 @@
     "disease": "Late blight",
     "severity": "high",
     "symptoms": "Water-soaked lesions on leaves and fruits, white mildew under humid conditions.",
-    "organic_treatment": "Destroy infected plants, copper oxychloride (allowed in organic in limited dose), garlic extract.",
-    "chemical_treatment": "Metalaxyl + Mancozeb combo @ 2.5g/L immediately. Urgent action needed.",
+    "organic_treatment": "Destroy infected plants, copper oxychloride limited dose, garlic extract.",
+    "chemical_treatment": "Metalaxyl 8% + Mancozeb 64% @ 2.5g/L immediately. Urgent.",
     "prevention": "Avoid overhead irrigation, resistant varieties, forecast-based spraying."
   },
   {
-    "label": "Potato___Healthy",
+    "label": "Tomato___Leaf_Mold",
+    "crop": "Tomato",
+    "disease": "Leaf mold",
+    "severity": "medium",
+    "symptoms": "Yellow spots upper leaf, olive-green mold beneath, leaf curl.",
+    "organic_treatment": "Baking soda spray 5g/L + neem oil, improve ventilation.",
+    "chemical_treatment": "Chlorothalonil 75% WP @ 2g/L if severe.",
+    "prevention": "Spacing, staking, drip irrigation, resistant hybrids."
+  },
+  {
+    "label": "Tomato___healthy",
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "severity": "none",
+    "symptoms": "No visible disease symptoms.",
+    "organic_treatment": "No treatment needed.",
+    "chemical_treatment": "No treatment needed.",
+    "prevention": "Regular scouting, balanced nutrition, clean seed."
+  },
+  {
+    "label": "Potato___Early_blight",
+    "crop": "Potato",
+    "disease": "Early blight",
+    "severity": "medium",
+    "symptoms": "Target-board spots on leaves, tuber blemishes.",
+    "organic_treatment": "Compost tea, neem oil, remove debris.",
+    "chemical_treatment": "Mancozeb @ 2.5g/L, 2-3 sprays at 10-day interval.",
+    "prevention": "Certified seed tubers, rotation with cereals, earthing up."
+  },
+  {
+    "label": "Potato___Late_blight",
+    "crop": "Potato",
+    "disease": "Late blight",
+    "severity": "high",
+    "symptoms": "Black lesions, white sporulation, rapid collapse in humid weather.",
+    "organic_treatment": "Haul out and bury infected haulms, Bordeaux mixture 1%.",
+    "chemical_treatment": "Dimethomorph + Mancozeb combo immediately.",
+    "prevention": "Disease forecasting (e.g. CPRI), resistant cv. Kufri Jyoti."
+  },
+  {
+    "label": "Potato___healthy",
     "crop": "Potato",
     "disease": "Healthy",
     "severity": "none",
     "symptoms": "No visible disease symptoms.",
-    "organic_treatment": "No treatment needed. Continue good practices.",
+    "organic_treatment": "No treatment needed.",
     "chemical_treatment": "No treatment needed.",
-    "prevention": "Regular scouting, balanced nutrition, clean seed tubers."
+    "prevention": "Clean seed, balanced NPK, regular scouting."
   },
   {
     "label": "Maize___Common_rust",
     "crop": "Maize",
     "disease": "Common rust",
     "severity": "medium",
-    "symptoms": "Reddish-brown pustules on leaves, reduces photosynthesis.",
+    "symptoms": "Reddish-brown pustules on leaves, reduced photosynthesis.",
     "organic_treatment": "Sulphur dust, resistant hybrids next season.",
     "chemical_treatment": "Propiconazole 25% EC @ 1ml/L if severity > 10%.",
     "prevention": "Early sowing, weed control, avoid dense planting."
+  },
+  {
+    "label": "Maize___healthy",
+    "crop": "Maize",
+    "disease": "Healthy",
+    "severity": "none",
+    "symptoms": "No visible disease symptoms.",
+    "organic_treatment": "No treatment needed.",
+    "chemical_treatment": "No treatment needed.",
+    "prevention": "Seed treatment with Azospirillum, timely irrigation."
   },
   {
     "label": "Rice___Bacterial_leaf_blight",
     "crop": "Rice",
     "disease": "Bacterial leaf blight",
     "severity": "high",
-    "symptoms": "Yellowing and drying of leaves from tip, wilting in severe cases.",
+    "symptoms": "Yellowing and drying from leaf tip, wilting in severe cases.",
     "organic_treatment": "Pseudomonas fluorescens seed treatment, drain field briefly.",
-    "chemical_treatment": "Streptocycline + Copper oxychloride spray. Consult agri officer.",
-    "prevention": "Resistant varieties, balanced nitrogen, field sanitation."
+    "chemical_treatment": "Streptocycline 150ppm + Copper oxychloride. Consult agri officer.",
+    "prevention": "Resistant varieties (Swarna, IR64), balanced nitrogen, sanitation."
   },
   {
-    "label": "Cotton___Healthy",
+    "label": "Rice___Brown_spot",
+    "crop": "Rice",
+    "disease": "Brown spot",
+    "severity": "medium",
+    "symptoms": "Dark brown oval spots, poor grain filling.",
+    "organic_treatment": "Silicon-rich manure, neem seed kernel extract.",
+    "chemical_treatment": "Tricyclazole 75% WP @ 0.6g/L if ETL crossed.",
+    "prevention": "Potassium nutrition, water management, clean seed."
+  },
+  {
+    "label": "Rice___healthy",
+    "crop": "Rice",
+    "disease": "Healthy",
+    "severity": "none",
+    "symptoms": "No visible disease symptoms.",
+    "organic_treatment": "No treatment needed.",
+    "chemical_treatment": "No treatment needed.",
+    "prevention": "SRI practices, regular field visits."
+  },
+  {
+    "label": "Cotton___Bacterial_blight",
+    "crop": "Cotton",
+    "disease": "Bacterial blight",
+    "severity": "medium",
+    "symptoms": "Angular water-soaked spots, boll rot in late stage.",
+    "organic_treatment": "Acid delinting of seed, Trichoderma seed treatment.",
+    "chemical_treatment": "Copper oxychloride + Streptocycline spray.",
+    "prevention": "Resistant Bt hybrids, field sanitation, rotation."
+  },
+  {
+    "label": "Cotton___healthy",
     "crop": "Cotton",
     "disease": "Healthy",
     "severity": "none",
@@ -58,5 +138,75 @@
     "organic_treatment": "No treatment needed.",
     "chemical_treatment": "No treatment needed.",
     "prevention": "Pheromone traps for bollworm, regular scouting."
+  },
+  {
+    "label": "Wheat___Yellow_rust",
+    "crop": "Wheat",
+    "plant": "Wheat",
+    "disease": "Yellow rust",
+    "condition": "Yellow rust",
+    "category": "disease",
+    "severity": "high",
+    "symptoms": "Yellow stripe pustules on leaves, shrivelled grains.",
+    "organic_treatment": "Early sowing of resistant varieties (HD-2967), remove volunteer wheat.",
+    "chemical_treatment": "Propiconazole @ 0.1% at first appearance.",
+    "prevention": "Resistant varieties, surveillance in Feb-Mar, balanced fertilizer.",
+    "village_advice": "Yellow lines on wheat leaf means rust. Spray in evening, do not spray before rain."
+  },
+  {
+    "label": "Cotton___Bollworm",
+    "crop": "Cotton",
+    "plant": "Cotton",
+    "disease": "Bollworm",
+    "condition": "Bollworm",
+    "category": "pest",
+    "severity": "high",
+    "symptoms": "Holes in bolls, chewed leaves, caterpillar visible, droppings.",
+    "organic_treatment": "Pheromone traps 8/acre, neem seed kernel 5%, release Trichogramma.",
+    "chemical_treatment": "Emamectin benzoate 5SG @ 0.5g/L only if >10% damage. Evening spray.",
+    "prevention": "Deep ploughing, trap crops, timely sowing.",
+    "village_advice": "Green worm in cotton ball is bollworm. Put trap, pick worms by hand first."
+  },
+  {
+    "label": "Rice___Stem_borer",
+    "crop": "Rice",
+    "plant": "Rice",
+    "disease": "Stem borer",
+    "condition": "Stem borer",
+    "category": "pest",
+    "severity": "high",
+    "symptoms": "Dead heart in young plants, white earheads, holes in stem.",
+    "organic_treatment": "Pheromone traps, neem oil, release dragonflies habitat.",
+    "chemical_treatment": "Cartap hydrochloride if ETL crossed. Ask agri officer.",
+    "prevention": "Stubble removal, balanced nitrogen, early planting.",
+    "village_advice": "Rice stem hollow and white grain means stem borer. Remove stubble after harvest."
+  },
+  {
+    "label": "Maize___Fall_armyworm",
+    "crop": "Maize",
+    "plant": "Maize",
+    "disease": "Fall armyworm",
+    "condition": "Fall armyworm",
+    "category": "pest",
+    "severity": "high",
+    "symptoms": "Ragged holes in leaves, sawdust-like waste in leaf funnel, green-brown worm.",
+    "organic_treatment": "Sand + ash in leaf funnel, neem oil, hand-pick worms morning.",
+    "chemical_treatment": "Spinetoram or Emamectin in funnel if severe. Evening only.",
+    "prevention": "Early sowing, intercrop with legumes, scout twice weekly.",
+    "village_advice": "Big holes in maize heart leaf with worm dirt means armyworm. Put ash-sand mix in funnel."
+  },
+  {
+    "label": "Tomato___Aphids",
+    "crop": "Tomato",
+    "plant": "Tomato",
+    "disease": "Aphids",
+    "condition": "Aphids",
+    "category": "pest",
+    "severity": "medium",
+    "symptoms": "Small black/green insects under leaf, sticky leaf, curled growth.",
+    "organic_treatment": "Soap water spray, neem oil, yellow sticky traps.",
+    "chemical_treatment": "Imidacloprid only if heavy. Avoid during flowering.",
+    "prevention": "Remove weeds, encourage ladybirds.",
+    "village_advice": "Tiny sticky insects under leaf are aphids. Spray soap-neem water first."
   }
 ]

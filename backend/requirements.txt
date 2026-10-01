@@ -4,7 +4,9 @@ python-multipart==0.0.20
 pillow==11.1.0
 numpy==1.26.4
 python-dotenv==1.0.1
-# Uncomment when using a real model:
+httpx==0.28.1
+pytest==8.3.4
+# Optional for real model:
 # torch==2.5.1
 # torchvision==0.20.1
 # onnxruntime==1.20.1
